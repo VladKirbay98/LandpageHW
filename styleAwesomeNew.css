@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/raleway-v27-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v27-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/open-sans-v29-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v29-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  *{
+    padding: auto 0;
+    margin: auto 0;
+    box-sizing: border-box;
+  }
+
+  .reason__content{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+  }
+
+  .reason__content-childs{
+    width: 370px;
+    height: 383px;
+    margin-top: 71px;
+}
+
+.reason__content-photo{
+    width: 170px;
+    height: 170px;
+}
+
+.reason__content-title{
+    Width:369px;
+    Height:100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.reason__content-desc{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;    
+    Width:370px;
+    Height:105px;
+   
+}
